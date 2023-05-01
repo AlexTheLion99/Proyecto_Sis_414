@@ -1,4 +1,4 @@
-
+ 
 button{
     background: black;
     cursor: pointer;
@@ -44,7 +44,7 @@ button{
     }
   }
 
-  .color-facebook{
+  .text-reset{
     color: var(--color-facebook);
   }
   .color-tiktok{
@@ -62,7 +62,7 @@ button{
     --my-color-tree: #00bec9;
     --my-text-color-primary: #ffffff;
     --color-busqueda:#ffffff;
-    --color-facebook:#3b5998;
+    --text-reset:#3b5998;
     --color-youtube:#ff1e00;
     --color-tiktok:#050605;
     --color-whatsapp:#02b208;
