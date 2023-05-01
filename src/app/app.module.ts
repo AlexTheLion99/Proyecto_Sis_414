@@ -5,14 +5,24 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 
+import { NoopAnimationsModule } from '@angular/platform-browser/animations';
+
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { ContactosComponent } from './contactos/contactos.component';
+
+
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    ContactosComponent
+ 
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NoopAnimationsModule,
+    MatToolbarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
